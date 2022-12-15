@@ -6,7 +6,7 @@ public class Hui {
 		Scanner sc = new Scanner(System.in);
 
 
-
+			while (true) {
 
             System.out.println("Calculate an area of a rectangle or circle (r/c)?\nx to exit");
 
@@ -44,14 +44,16 @@ public class Hui {
 
             }
 
-            
+            else if (choice.equals("x"))
+
+                break;
 
             else
 
                 System.out.println("Unknown choice. Please try again.");
 
         }
-
+	}
     }
 	
 
